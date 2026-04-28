@@ -284,8 +284,7 @@ with st.sidebar:
     st.markdown("<br>", unsafe_allow_html=True)
     st.markdown('<div class="section-header">Navigation</div>', unsafe_allow_html=True)
 
-    nav = st.radio("", ["🏠 All Notes", "➕ New Note", "🔍 Search", "🏷️ Browse Tags"], label_visibility="collapsed")
-
+    nav = st.radio("Navigation", ["🏠 All Notes", "➕ New Note", "🔍 Search", "🏷️ Browse Tags"], label_visibility="collapsed")
     st.markdown("<br>", unsafe_allow_html=True)
 
     # API status
